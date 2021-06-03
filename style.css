@@ -1,3 +1,4 @@
+/* Esercizio 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -9,6 +10,7 @@
     background-color: red;
 }
 
+/* Esercizio 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -20,12 +22,18 @@
     width: 100%;
 }
 
-
+/* Esercizio 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 1s linear;
 }
+
+.col-xs-12 .well .ex-3-square:hover {
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
