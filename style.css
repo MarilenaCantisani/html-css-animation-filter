@@ -96,10 +96,20 @@
     border-radius: 20px;
 }
 
+/* Esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: margin 2s, width 2s, border-radius 2s, filter 2s; 
 }
+
+.col-xs-12 .well .ex-9-img:hover {
+    margin: 0;
+    width: 600px;
+    border-radius: 30px;
+    filter: grayscale(0.5) sepia(0.6);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
