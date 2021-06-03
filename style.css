@@ -113,7 +113,7 @@
 /* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
-    animation: loading 1s linear infinite reverse ;
+    animation: loading 1s linear infinite reverse;
 }
 
 @keyframes loading {
@@ -125,11 +125,31 @@
     }
 }
 
-
-
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.col-xs-12 .well .ex-11-icon:hover {
+    animation: loading-reversebouncing 2s ease-in-out; 
+}
+
+@keyframes loading-reversebouncing {
+    0% {
+        transform: rotate(0deg);   
+    }
+
+    90% {
+        transform: rotate(330deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);   
+    }
+
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
