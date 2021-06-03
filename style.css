@@ -71,10 +71,21 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
 /* Esercizio 6 */
 .col-xs-12 .well .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+/* Esercizio 7 */
+.ex-7-img {
+    transition: filter 1s linear;
+}
+
+.col-xs-12 .well .ex-7-img:hover {
+    filter: sepia(0.6);
+}
+
 
 
 .ex-9-img {
